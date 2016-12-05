@@ -12,13 +12,9 @@ case "$choose" in
 				echo "swarm-master:"
 				echo $(vcgencmd measure_temp)
 				read -p "Press [Enter] key to continue."
-				echo $(docker info)
-				read -p "Press [Enter] key to continue."
 			else
 				echo " $node : "
 				echo $(ssh "$node" vcgencmd measure_temp)
-				read -p "Press [Enter] key to continue."
-				echo $(ssh "$node" docker info)
 				read -p "Press [Enter] key to continue."
 			fi
 		done
