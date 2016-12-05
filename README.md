@@ -9,7 +9,7 @@ Type G : Get each node's Temp. or R : Download the Git repon. or D : Pull Docker
 get each node's cpu temp.
 
 ### R:
-Then for git repo. you need full url
+for git repo. you need full url
 ```/bin/bash
 https://github.com/XXXX/XXXX.git
 ```
